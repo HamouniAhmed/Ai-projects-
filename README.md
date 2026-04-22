@@ -1,19 +1,18 @@
-# AI Projects
+# Claude Console API
 
-A personal learning repo documenting my journey into AI development,
-APIs, and applied machine learning.
+Personal learning repo following the Anthropic course **"Building with the Claude API"**.
 
-## Projects
+## What's here
 
-### claude_console_api
-First hands-on project using the Anthropic Claude API.
-Covers basic API setup, authentication, and making completion requests
-via a Jupyter notebook.
+The `notebooks/` folder contains all hands-on work from the course :
+code, experiments, and notes organized by topic as I progress.
 
-## Setup
-
-Each project folder contains its own `.env` file (not pushed) for API keys.
-Copy `.env.example` to `.env` and fill in your credentials before running.
+## Course
+[Building with the Claude API](https://anthropic.com) — Anthropic
 
 ## Stack
 Python · Jupyter · Anthropic Claude API
+
+## Setup
+pip install anthropic python-dotenv
+cp .env.example .env  # add your API key
